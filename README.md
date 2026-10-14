@@ -159,6 +159,6 @@ A revision may match its draft when no correction is needed. Use fictional conta
 ## Submission
 
 - **Repository:** [Joud158/pathpilot-ai](https://github.com/Joud158/pathpilot-ai)
-- **Demonstration video:** pending recording and link.
+- **Demonstration video:** [Watch the project demonstration](https://mailaub-my.sharepoint.com/:v:/g/personal/jas53_mail_aub_edu/IQBZ2n5RNNXYRp3CFLxjQ9L-AfhpnI2Hii1js0EceDkQbiY?e=p7eSB9).
 - **Reflection bonus:** implemented, with successful live draft/revised evidence; some calls were interrupted by provider outages.
 - **Hugging Face hosting bonus:** not completed. Local Gradio demonstration is available.

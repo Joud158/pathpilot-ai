@@ -6,3 +6,4 @@ logs/
 .gradio/
 .test_tmp/
 .venv/
+demo.mp4
