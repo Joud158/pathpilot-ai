@@ -27,7 +27,7 @@ All business details, staff profiles, prices, and policies are fictional. The PD
 - **Separate persona and instructions:** Nova's identity and tone are distinct from operational rules.
 - **Three-way intent routing:** messages are classified as `GENERAL`, `LEAD`, or `FEEDBACK`, with a heuristic fallback when the classifier is unavailable.
 - **Model-requested tools:** customer interest and feedback are written to local JSONL files after actual function calls.
-- **Conversation memory:** recent chat history lets Nova resolve references such as ?that service.?
+- **Conversation memory:** recent chat history lets Nova resolve references such as "that service."
 - **Lead validation:** name, valid email, and notes are required before a lead can be recorded.
 - **Reflection:** a second model pass reviews the draft using business knowledge, conversation context, and tool results; draft and revised replies are logged.
 - **Gradio interface:** the same agent powers the local app and Jupyter notebook.
@@ -54,18 +54,18 @@ Input JSON schemas are defined in `agent_core.py` and displayed in the notebook.
 
 ```text
 pathpilot-ai/
-??? me/
-?   ??? about_business.pdf
-?   ??? business_summary.txt
-??? tests/
-?   ??? test_agent.py
-??? agent_core.py
-??? app.py
-??? business_agent.ipynb
-??? requirements.txt
-??? .env.example
-??? .gitignore
-??? README.md
+|-- me/
+|   |-- about_business.pdf
+|   `-- business_summary.txt
+|-- tests/
+|   `-- test_agent.py
+|-- agent_core.py
+|-- app.py
+|-- business_agent.ipynb
+|-- requirements.txt
+|-- .env.example
+|-- .gitignore
+`-- README.md
 ```
 
 The local `.env`, generated `logs/`, virtual environment, and temporary test files are excluded from version control.
@@ -131,11 +131,11 @@ Use the following sequence for a live demonstration:
 
 | Step | Message | Expected behavior |
 | --- | --- | --- |
-| General question | ?What services and prices do you offer?? | Answers using the business documents |
-| Lead inquiry | ?I'm interested in a mock interview. Please have your team follow up.? | Requests missing name and email |
-| Contact details | ?My name is Alex Lee and my email is alex@example.com. Please contact me about that service.? | Remembers the service and calls the lead tool |
-| Unknown question | ?Do you offer refunds?? | Logs the question and explains that staff must confirm the policy |
-| Feedback | ?I have feedback: please add weekend appointments.? | Calls the feedback tool |
+| General question | "What services and prices do you offer?" | Answers using the business documents |
+| Lead inquiry | "I'm interested in a mock interview. Please have your team follow up." | Requests missing name and email |
+| Contact details | "My name is Alex Lee and my email is alex@example.com. Please contact me about that service." | Remembers the service and calls the lead tool |
+| Unknown question | "Do you offer refunds?" | Logs the question and explains that staff must confirm the policy |
+| Feedback | "I have feedback: please add weekend appointments." | Calls the feedback tool |
 
 Inspect the terminal for route labels and successful tool results. Generated files are:
 
