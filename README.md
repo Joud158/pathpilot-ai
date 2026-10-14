@@ -56,16 +56,18 @@ Input JSON schemas are defined in `agent_core.py` and displayed in the notebook.
 pathpilot-ai/
 |-- me/
 |   |-- about_business.pdf
-|   `-- business_summary.txt
+|   |-- business_summary.txt
+|
 |-- tests/
-|   `-- test_agent.py
+|   |-- test_agent.py
+|
 |-- agent_core.py
 |-- app.py
 |-- business_agent.ipynb
 |-- requirements.txt
 |-- .env.example
 |-- .gitignore
-`-- README.md
+|-- README.md
 ```
 
 The local `.env`, generated `logs/`, virtual environment, and temporary test files are excluded from version control.
