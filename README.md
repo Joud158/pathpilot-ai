@@ -3,12 +3,10 @@
 ### Agent-Powered Career Services Assistant
 
 **Author:** Joud Senan  
-**Course:** EECE 503P/798S ? Agentic Systems  
-**Assignment:** C3 ? Introduction to Agents
+**Course:** EECE 503P/798S - Agentic Systems  
+**Assignment:** C3 - Introduction to Agents
 
 PathPilot AI is a conversational assistant for a fictional career-development studio. Its concierge, **Nova**, answers business questions, collects customer leads, and records feedback through model-requested tools. The project demonstrates intent routing, short-term conversation memory, tool execution, and an optional reflection pass in a Gradio interface.
-
-[View the GitHub repository](https://github.com/Joud158/pathpilot-ai)
 
 ## Business Overview
 
