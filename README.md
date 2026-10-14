@@ -1,15 +1,3 @@
----
-title: PathPilot AI
-emoji: "\U0001F9ED"
-colorFrom: green
-colorTo: blue
-sdk: gradio
-sdk_version: 5.50.0
-python_version: "3.11"
-app_file: app.py
-pinned: false
----
-
 # PathPilot AI
 
 ### Agent-Powered Career Services Assistant
