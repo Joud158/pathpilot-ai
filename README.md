@@ -48,7 +48,6 @@ Open the local Gradio URL printed in your terminal. For the notebook, launch Jup
 - The `.env` file is excluded by `.gitignore`; `.env.example` is safe to commit.
 - No live API calls are made by the included offline unit tests.
 
-See `SUBMISSION_CHECKLIST.md` for the requirement audit and outstanding submission items.
 
 ## Gemini setup
 
